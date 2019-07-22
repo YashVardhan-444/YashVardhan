@@ -1,0 +1,237 @@
+html{
+	height: 100%;
+	overflow:hidden;
+}
+
+
+body{
+	color:#fff;
+	margin:0;
+	padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+    font-family:'edoregular';
+}
+
+header{
+	box-sizing: border-box;
+	min-height: 100vh;
+	padding: 30vw 0 5vw;
+	position:relative;
+	transform-style: inherit;
+	width: 100vw;
+
+
+}
+
+header h1{
+	margin-top: -100px;
+
+}
+
+
+header,header:before {
+	background:50% 50% / cover;
+}
+
+
+header::before{
+	bottom:0;
+	content:"";
+	left:0;
+	position: absolute;
+	right: 0;
+    top:0;
+    display: block;
+	background-image:url(BG5.jpg);
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index:-1;
+    min-height: 100vh;
+}
+
+h1{
+	color:black;
+	font-size:65px; 
+
+}
+
+
+p{
+	color:black;
+}
+
+@font-face {
+    font-family: 'edoregular';
+    src: url('../parallax site/fonts/edo-webfont.eot');
+    src: url('../parallax site/fonts/edo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../parallax site/fomts/edo-webfont.woff2') format('woff2'),
+         url('../parallax site/fonts/edo-webfont.woff') format('woff'),
+         url('../parallax site/fonts/edo-webfont.ttf') format('truetype'),
+         url('../parallax site/fonts/edo-webfont.svg#edoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.surname{
+	padding:20px;
+	font-size: 100px;
+}
+.credits{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	background: black;
+}
+
+li{
+	list-style: none;
+	mar
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+	position: absolute;
+	top: 145%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+
+.wrapper ul li{
+   list-style:none;
+}
+
+
+.wrapper ul li{
+	width:75px;
+	height: 75px;
+	line-height: 75px;
+	margin:0px 40px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 50%;
+	border:5px solid #fff;
+    float:left;
+    transition: all 0.5s ease;
+    
+}
+
+
+.wrapper ul li .fa{
+	color:#fff;
+	margin-top: 20px;
+    transition: all 0.5s ease;
+}
+
+
+.wrapper ul li:hover:nth-child(1){
+	border: 5px solid white;
+	box-shadow: 0 0 15px white;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-facebook{
+	color:white;
+	text-shadow: 0 0 15px white;
+	transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover:nth-child(2){
+	border: 5px solid white;
+	box-shadow: 0 0 15px white;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram{
+	color:white;
+	text-shadow: 0 0 15px white;
+	transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover:nth-child(3){
+	border: 5px solid white;
+	box-shadow: 0 0 15px white;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-google{
+	color:white;
+	text-shadow: 0 0 15px white;
+	transition: all 0.5s ease;
+}
+
+
+.wrapper ul li:hover:nth-child(4){
+	border: 5px solid white;
+	box-shadow: 0 0 15px white;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-whatsapp{
+	color:white;
+	text-shadow: 0 0 15px white;
+	transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
