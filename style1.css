@@ -221,7 +221,12 @@ iframe
 
 
 
-
+.ads
+{
+   position: absolute;
+	left: 100%;
+	bottom: 90%;	
+}
 
 
 
